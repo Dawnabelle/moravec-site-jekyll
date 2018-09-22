@@ -43,7 +43,29 @@ h6 {
 }
 
 
-/* Default <section> styles */
+/** Brand color classes **/
+.color-red {
+  color: #e24e42
+}
+.color-blue {
+  /*color: #0089cc*/
+  color: #1D809F
+}
+
+
+/** Text style classes **/
+.text-primary {
+  color: #1D809F !important;
+}
+.text-secondary {
+  color: #ecb807 !important;
+}
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+/** Default <section> styles **/
 .content-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -86,4 +108,18 @@ h6 {
 }
 .btn-xl {
   padding: 1.25rem 2.5rem;
+}
+
+
+/** Circle icons **/
+.circle-icon-white {
+  background-color: #fff;
+  color: #1D809F;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }

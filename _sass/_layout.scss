@@ -147,17 +147,84 @@
 }
 
 
-/* Section - Map */
+/** Section - Masthead aka Hero **/
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../images/portland-bridge.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/portland-bridge.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.masthead h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+  color: white;
+  margin-top: -4.5rem;
+}
+.masthead h3 {
+  color: whitesmoke;
+}
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+  }
+  .masthead h1 {
+    font-size: 5.5rem;
+  }
+}
+
+
+/** Section - Services **/
+.service {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../images/cartographer.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/cartographer.png");
+}
+
+
+/** Section - Callout **/
+.callout {
+  padding: 10rem 0;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../images/map1.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/map1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    display: block;
+    max-width: 100rem;
+    color: white;
+  }
+}
+
+
+/** Section - Blurb **/
+.blurb {
+  background: url("../images/cartographer.png");
+  background-color: rgba(266,78,66, .9);
+}
+
+
+/** Section - Map **/
 .map {
   height: 30rem;
+  iframe {
+    pointer-events: none;
+  }
 }
 @media (max-width: 992px) {
   .map {
     height: 75%;
   }
-}
-.map iframe {
-  pointer-events: none;
 }
 
 
@@ -205,111 +272,4 @@ footer.footer .social-link:hover {
 }
 .scroll-to-top i {
   font-weight: 800;
-}
-
-
-
-
-
-
-.masthead {
-  min-height: 30rem;
-  position: relative;
-  display: table;
-  width: 100%;
-  height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../images/portland-bridge.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/portland-bridge.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-.masthead h1 {
-  font-size: 4rem;
-  margin: 0;
-  padding: 0;
-  color: white;
-  margin-top: -4.5rem;
-}
-
-.masthead h3 {
-  /*margin-top: 6rem;*/
-  color: whitesmoke;
-}
-
-.colorful .red {
-  color: #e24e42
-}
-
-.colorful .blue {
-  /*color: #0089cc*/
-  color: #1D809F
-}
-
-
-@media (min-width: 992px) {
-  .masthead {
-    height: 100vh;
-  }
-  .masthead h1 {
-    font-size: 5.5rem;
-  }
-}
-
-.service-icon {
-  background-color: #fff;
-  color: #1D809F;
-  height: 7rem;
-  width: 7rem;
-  display: block;
-  line-height: 7.5rem;
-  font-size: 2.25rem;
-  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-.callout {
-  padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../images/map1.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/map1.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.callout h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  display: block;
-  max-width: 100rem;
-  color: white;
-}
-
-.bg-primary {
-  background-color: #1D809F !important;
-}
-
-.text-primary {
-  color: #1D809F !important;
-}
-
-.text-secondary {
-  color: #ecb807 !important;
-}
-
-.service {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../images/cartographer.png");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/cartographer.png");
-}
-.blurb {
-  background: url("../images/cartographer.png");
-  background-color: rgba(266,78,66, .9);
-}
-
-.text-faded {
-  color: rgba(255, 255, 255, 0.7);
 }
