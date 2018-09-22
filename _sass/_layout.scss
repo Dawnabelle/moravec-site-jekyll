@@ -206,6 +206,12 @@
 .blurb {
   background: url("../images/cartographer.png");
   background-color: rgba(266,78,66, .9);
+  h2 {
+    margin-bottom: 0 !important;
+  }
+  h2 + h2 {
+    margin-top: 1rem;
+  }
 }
 
 
