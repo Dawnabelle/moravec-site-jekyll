@@ -77,11 +77,24 @@
 }
 
 
-/** Section - Porfolio **/
+/** Section - Blog Preview **/
 .blog-preview {
-  padding: 10rem 0;
-  background: lightblue;
+  padding: 5rem 0;
+  background-color: lightgray;
+  h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    display: block;
+    max-width: 100rem;
+    color: white;
+  }
+  .btn {
+    margin-top: 1rem;
+  }
 }
+
+
+/** Section - Porfolio **/
 .portfolio-item {
   display: block;
   position: relative;
@@ -186,24 +199,6 @@
 .service {
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../images/cartographer.png");
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/cartographer.png");
-}
-
-
-/** Section - Callout **/
-.callout {
-  padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../images/map1.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/map1.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  h2 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    display: block;
-    max-width: 100rem;
-    color: white;
-  }
 }
 
 

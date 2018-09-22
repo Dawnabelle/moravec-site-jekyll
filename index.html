@@ -95,25 +95,17 @@ layout: default
 </section>
 
 
-<!-- Callout -->
-<section class="callout">
-  <div class="container text-center">
-    <h2 class="mx-auto mb-5">Passionate about technology!</h2>
-    <a class="btn btn-primary btn-xl" href="#">Visit our Blog</a>
-  </div>
-</section>
-
-
 <!-- Blog -->
-<section class="blog-preview" id="blog">
-  <div class="container">
-    <h2>Blog</h2>
-    {% for post in site.posts limit:6 %}
-    <time>{{ post.date | date: "%b %-d, %Y" }}</time>
-    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-    {% endfor %}
-
-    <p><a href="/blog">View all posts >></a></p>
+<section class="blog-preview">
+  <div class="container text-center">
+    <h2 class="mx-auto mb-5">Blog</h2>
+    <div class="blog-preview-items">
+      {% for post in site.posts limit:6 %}
+      <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+      <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+      {% endfor %}
+    </div>
+    <a class="btn btn-primary btn-xl" href="/blog">Visit our Blog</a>
   </div>
 </section>
 
@@ -129,46 +121,46 @@ layout: default
     <div class="row no-gutters">
       <div class="col-lg-6">
         <a class="portfolio-item" href="#">
-                  <span class="caption">
-                    <span class="caption-content">
-                      <h2>Risk Assessment Software</h2>
-                      <p class="mb-0">The Frontier Series of Pipeline Risk Software</p>
-                    </span>
-                  </span>
+          <span class="caption">
+            <span class="caption-content">
+              <h2>Risk Assessment Software</h2>
+              <p class="mb-0">The Frontier Series of Pipeline Risk Software</p>
+            </span>
+          </span>
           <img class="img-fluid" src="images/pipeline.jpg" alt="">
         </a>
       </div>
 
       <div class="col-lg-6">
         <a class="portfolio-item" href="#">
-                  <span class="caption">
-                    <span class="caption-content">
-                      <h2>City of Houston Hackathon</h2>
-                      <p class="mb-0">ESRI Award Winning Application</p>
-                    </span>
-                  </span>
+          <span class="caption">
+            <span class="caption-content">
+              <h2>City of Houston Hackathon</h2>
+              <p class="mb-0">ESRI Award Winning Application</p>
+            </span>
+          </span>
           <img class="img-fluid" src="images/texmex.jpg" alt="">
         </a>
       </div>
       <div class="col-lg-6">
         <a class="portfolio-item" href="#">
-                  <span class="caption">
-                    <span class="caption-content">
-                      <h2>Farmers Market Finder</h2>
-                      <p class="mb-0">Combining data into a single mapping application</p>
-                    </span>
-                  </span>
+          <span class="caption">
+            <span class="caption-content">
+              <h2>Farmers Market Finder</h2>
+              <p class="mb-0">Combining data into a single mapping application</p>
+            </span>
+          </span>
           <img class="img-fluid" src="images/farmers-market.jpg" alt="">
         </a>
       </div>
       <div class="col-lg-6">
         <a class="portfolio-item" href="#">
-                  <span class="caption">
-                    <span class="caption-content">
-                      <h2>Esri Hackathon Winner</h2>
-                      <p class="mb-0">Routing voters to the nearest polling location with the shortest line</p>
-                    </span>
-                  </span>
+          <span class="caption">
+            <span class="caption-content">
+              <h2>Esri Hackathon Winner</h2>
+              <p class="mb-0">Routing voters to the nearest polling location with the shortest line</p>
+            </span>
+          </span>
           <img class="img-fluid" src="images/ballot.jpg" alt="">
         </a>
       </div>
@@ -184,6 +176,7 @@ layout: default
     <h2 class="mb-4">We believe mapping should be fast, easy, and powerful - for everyone.</h2>
   </div>
 </section>
+
 
 <!-- Placeholder for Esri Map -->
 <section id="contact" class="map">
