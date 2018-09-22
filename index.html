@@ -101,8 +101,10 @@ layout: default
     <h2 class="mx-auto mb-5">Blog</h2>
     <div class="blog-preview-items">
       {% for post in site.posts limit:6 %}
-      <time>{{ post.date | date: "%b %-d, %Y" }}</time>
-      <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+      <div class="blog-preview-item">
+        <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+        <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+      </div>
       {% endfor %}
     </div>
     <a class="btn btn-primary btn-xl" href="/blog">Visit our Blog</a>
