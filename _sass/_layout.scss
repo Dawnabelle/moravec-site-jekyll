@@ -6,6 +6,10 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
 }
 
 .btn-xl {
@@ -243,6 +247,11 @@ h6 {
   display: block;
   max-width: 100rem;
   color: white;
+}
+
+.blog-preview {
+  padding: 10rem 0;
+  background: lightblue;
 }
 
 .portfolio-item {
