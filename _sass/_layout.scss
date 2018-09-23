@@ -68,12 +68,13 @@
   background: rgba(52, 58, 64, 0.5);
   line-height: 50px;
   z-index: 999;
+  transition: background-color 100ms linear;
 }
 .menu-toggle:focus, .menu-toggle:hover {
   color: #fff;
 }
 .menu-toggle:hover {
-  background: #343a40;
+  background-color: #155d74;
 }
 
 
