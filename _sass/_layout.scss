@@ -281,13 +281,14 @@ footer {
   color: white;
   background: rgba(52, 58, 64, 0.5);
   line-height: 45px;
+  transition: background-color 100ms linear;
+  i {
+    font-weight: 800;
+  }
 }
 .scroll-to-top:focus, .scroll-to-top:hover {
   color: white;
 }
 .scroll-to-top:hover {
-  background: #343a40;
-}
-.scroll-to-top i {
-  font-weight: 800;
+  background-color: #155d74;
 }
