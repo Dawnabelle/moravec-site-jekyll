@@ -17,7 +17,6 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1em;
-  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   margin: 0;
 }
@@ -40,6 +39,8 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+  margin: 0;
+  line-height: inherit;
 }
 
 
@@ -69,17 +70,25 @@ h6 {
 .content-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-.content-section-heading h2 {
-  font-size: 3rem;
-}
-.content-section-heading h3 {
-  font-size: 1.5rem;
-  text-transform: uppercase;
+  h2 {
+    font-size: 3rem;
+    text-align: left;
+  }
+  h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  h2:first-child + * {
+    margin-top: 2rem;
+  }
 }
 
 
 /** Buttons **/
+* + .btn-container {
+  margin-top: 2rem;
+}
 .btn-primary {
   background-color: #1D809F !important;
   border-color: #1D809F !important;

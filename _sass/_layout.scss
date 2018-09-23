@@ -77,101 +77,6 @@
 }
 
 
-/** Section - Blog Preview **/
-.blog-preview {
-  padding: 5rem 0;
-  background-color: lightgray;
-  h2 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    display: block;
-    max-width: 100rem;
-    text-align: left;
-  }
-  .blog-preview-items {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -20px;
-    margin-top: -20px;
-    .blog-preview-item {
-      flex: 1 0 calc(50% - 20px);
-      margin-left: 20px;
-      margin-top: 20px;
-      text-align: left;
-    }
-  }
-  .btn {
-    margin-top: 2rem;
-  }
-}
-
-
-/** Section - Porfolio **/
-.portfolio-item {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  max-width: 530px;
-  margin: auto auto 1rem;
-}
-.portfolio-item .caption {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
-}
-.portfolio-item .caption .caption-content {
-  color: #fff;
-  margin: auto 2rem 2rem;
-}
-.portfolio-item .caption .caption-content h2 {
-  font-size: 0.9rem;
-  text-transform: uppercase;
-}
-.portfolio-item .caption .caption-content p {
-  font-weight: 400;
-  font-size: 1.2rem;
-}
-@media (min-width: 992px) {
-  .portfolio-item {
-    max-width: none;
-    margin: 0;
-  }
-  .portfolio-item .caption {
-    -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
-    -webkit-clip-path: inset(0px);
-    clip-path: inset(0px);
-  }
-  .portfolio-item .caption .caption-content {
-    -webkit-transition: opacity 0.25s;
-    transition: opacity 0.25s;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
-  }
-  .portfolio-item img {
-    -webkit-transition: -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(-1px);
-    clip-path: inset(-1px);
-  }
-  .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
-  }
-  .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
-  }
-}
-
-
 /** Section - Masthead aka Hero **/
 .masthead {
   min-height: 30rem;
@@ -207,10 +112,108 @@
 }
 
 
+/** Section - About **/
+.about {
+  .container {
+    p:last-of-type {
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
 /** Section - Services **/
-.service {
+.services {
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../images/cartographer.png");
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/cartographer.png");
+}
+
+
+/** Section - Blog Preview **/
+.blog-preview {
+  background-color: lightgray;
+  .blog-preview-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    margin-top: -20px;
+    .blog-preview-item {
+      flex: 1 0 calc(50% - 20px);
+      margin-left: 20px;
+      margin-top: 20px;
+      text-align: left;
+      &:nth-child(-n+2) {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+
+/** Section - Porfolio **/
+.portfolio {
+  .portfolio-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 530px;
+    margin: auto auto 1rem;
+  }
+  .portfolio-item .caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 37, 41, 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  .portfolio-item .caption .caption-content {
+    color: #fff;
+    margin: auto 2rem 2rem;
+  }
+  .portfolio-item .caption .caption-content h2 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+  }
+  .portfolio-item .caption .caption-content p {
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+  @media (min-width: 992px) {
+    .portfolio-item {
+      max-width: none;
+      margin: 0;
+    }
+    .portfolio-item .caption {
+      -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+      -webkit-clip-path: inset(0px);
+      clip-path: inset(0px);
+    }
+    .portfolio-item .caption .caption-content {
+      -webkit-transition: opacity 0.25s;
+      transition: opacity 0.25s;
+      margin-left: 5rem;
+      margin-right: 5rem;
+      margin-bottom: 5rem;
+    }
+    .portfolio-item img {
+      -webkit-transition: -webkit-clip-path 0.25s ease-out;
+      -webkit-clip-path: inset(-1px);
+      clip-path: inset(-1px);
+    }
+    .portfolio-item:hover img {
+      -webkit-clip-path: inset(2rem);
+      clip-path: inset(2rem);
+    }
+    .portfolio-item:hover .caption {
+      background-color: rgba(29, 128, 159, 0.9);
+      -webkit-clip-path: inset(2rem);
+      clip-path: inset(2rem);
+    }
+  }
 }
 
 
@@ -218,10 +221,11 @@
 .blurb {
   background: url("../images/cartographer.png");
   background-color: rgba(266,78,66, .9);
-  h2 {
+  h3 {
     margin-bottom: 0 !important;
+    text-align: center;
   }
-  h2 + h2 {
+  h3 + h3 {
     margin-top: 1rem;
   }
 }
@@ -242,25 +246,25 @@
 
 
 /** Footer **/
-footer.footer {
+footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-footer.footer .social-link {
-  display: block;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
-  background-color: #1D809F;
-  -webkit-transition: background-color 0.15s ease-in-out;
-  transition: background-color 0.15s ease-in-out;
-  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-footer.footer .social-link:hover {
-  background-color: #155d74;
-  text-decoration: none;
+  .social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #1D809F;
+    -webkit-transition: background-color 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    &:hover {
+      background-color: #155d74;
+      text-decoration: none;
+    }
+  }
 }
 
 
