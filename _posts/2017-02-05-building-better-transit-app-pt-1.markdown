@@ -9,6 +9,8 @@ I have spent a lot of time recently learning and working with Xamarin Studio and
 
 This post serves as my scope for the project, and a place to document my goals, requirements etc.  I have already built a prototype that my wife and I have been using around town, and we both like it but it needs refinement and simplification.  For phase one of this application, my goal is to provide simple up-to-the-minute times for nearby transit stops.  This helps solve my main problem of planning when to leave to catch a bus or streetcar to get somewhere, I already know how I am going to get there the question is when.
 
+<img src="/images/blog/bus-stop.jpg" alt="commuter train">
+
 *Phase 2* will add exploration to the application.  Sometimes you need to know where a bus goes, what are the stops for that bus, etc.  With this, I want to give myself the ability to look for alternate routes that happen to be going in the direction I want to go or discover a bus route by just knowing the bus number from the stop I’m standing at.
 
 With that, here are some more specific requirements, technologies, etc:
@@ -21,6 +23,6 @@ With that, here are some more specific requirements, technologies, etc:
 * Experiment more with event-based programming
 * Include tests at the function, model, and ViewModel level
 
-I’ll be posting the code to GitHub in my [Public Transit App}(https://github.com/MoravecLabs/PublicTransitApp) repository while working on this project.
+I’ll be posting the code to GitHub in my [Public Transit App](https://github.com/MoravecLabs/PublicTransitApp) repository while working on this project.
 
 I think that wraps up the introduction/plan for this little project!  Off to write code!

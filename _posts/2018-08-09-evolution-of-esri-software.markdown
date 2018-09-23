@@ -11,7 +11,7 @@ This year was my first time attending the Esri User Conference as a business own
 
 It still feels like large leaps sometimes as new updates come out several times a year, but this is the expectation we have all placed on software these days.  Whether it is an app on our phone that sends messages to our team or arguably the most complex data platform ever created, we want new features constantly and demand updates of the software providers.
 
-<img src="#" alt="Christopher and Mara at Esri UC">
+<img src="/images/blog/Christopher_Mara_UC2013.jpg" alt="Christopher and Mara at Esri UC">
 
 As a small business owner, I am excited to see Esri continuing to evolve software.  And while Esri software is plenty revolutionary, I feel that the current speed of Esri software evolution provides the perfect opportunity for smart, agile companies to bring better solutions to clients.
 
@@ -21,7 +21,7 @@ Of course, there are always Esri updates that I believe are more important than 
 
 As it turns out, by the standard definition of Machine Learning, and not the more “buzz-worthy” one favored by many tech news sites today, Esri has been leading in this space for some time.  Machine Learning is simply put, the application of computer and mathematical techniques to analyze, find patterns, and make predictions. The tools and processes that we have all been using in the ArcGIS platform to better understand our spatial and spatio-temporal data are really advanced machine learning algorithms wrapped up into handy toolboxes.  In the words of Lauren Bennett, Senior Development Team Lead at Esri, “You are all already data scientists, you have been doing this for a while!”
 
-<img src="#" alt="machine learning photo">
+<img src="/images/blog/wind-turbines.jpg" alt="machine learning photo">
 
 Esri is also making moves in Deep Learning, especially for object recognition and extraction in aerial imagery, by providing tools to make it easier to cut basemaps into small images for training, and testing.  This is a huge step, as data prep represents a large part of working on these systems. While I was disappointed not to see integration with deep learning toolkits and services, I think Esri is headed in this direction.
 
@@ -41,7 +41,7 @@ Many of the clients that Moravec Labs works with are project based, and that pro
 
 For as long as I can remember, Autodesk and Esri have been rivals, and the usual looser of that rivalry was all of us, the users.  Over time though, things have gotten better, and with this partnership it looks as though Esri and Autodesk are prepared to become a true platform for Building Information Management as well as finally connect Engineers using CAD to Geographic experts.  I am very excited to see where this goes, and how it will benefit our customers.
 
-<img src="#" alt"autodesk photo">
+<img src="/images/blog/round-earth.jpg" alt="autodesk photo">
 
 [Autodesk and Esri – ‘Global leaders partnering to drive a more sustainable, resilient future.’]("http://www.esri.com/landing-pages/autodesk-esri-strategic-alliance")
 
@@ -49,7 +49,7 @@ For as long as I can remember, Autodesk and Esri have been rivals, and the usual
 
 The tech industry has its highs and its lows and its treatment of women and minorities is not normally a shining star; in particular Esri’s use for many years of “Map Girl” instead of “Map Woman” while using “Map Man” seems particularly egregious.  This simple change shows that Esri is starting to think more about inclusivity, and while we all have a long way to go here, this change is progress.
 
-<img src="#" alt="map woman">
+<img src="/images/blog/mapwoman.jpg" alt="map woman">
 
 [Storymap of Women in GIS]("http://storymaps.esri.com/stories/2014/WomenInGIS/")
 
