@@ -1,4 +1,5 @@
 .idea
+_site
 .DS_Store
 .jekyll
 .bundle
@@ -9,5 +10,7 @@ node_modules
 package.json
 
 # Jekyll stuff
+/_site/
+_site/
 .sass-cache/
 .jekyll-metadata
