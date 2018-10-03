@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="content-section">
+    <div class="container">
+        <h4>Portfolio</h4>
+        so many things
+        {% for project in site.projects %}
+        <!--<time>{{ project.date | date: "%b %-d, %Y" }}</time>-->
+        <h3><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h3>
+        {% endfor %}
+
+        <!--<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
+    </div>
+</div>
