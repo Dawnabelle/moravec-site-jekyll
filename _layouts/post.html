@@ -3,6 +3,9 @@ layout: default
 ---
 
 <div class="content-section">
+  <div class="btn-container">
+    <a class="btn btn-primary btn-lg  blog-button" href="/blog">Back to Blog</a>
+  </div>
   <div class="container">
     <h2>{{ page.title }}</h2>
     <time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>

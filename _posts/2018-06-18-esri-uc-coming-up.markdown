@@ -12,9 +12,9 @@ This conference brings together tens of thousands of members of the Esri communi
 
 In the last year we’ve seen a lot of innovation in the Esri ecosystem and we can’t wait to share our thoughts with you. Here’s some fun little projects we’ve been working on that we’d love to chat with you about.
 
+* [GeoTools.xyz]("https://www.geotools.xyz/") gives you an easy way to do some common GeoDev tasks. For example, "Where is that lat/long?" or "What is the extent of a map if I center it on Portland, OR?"
+* An *IoT temperature sensor* for the office so you’ll always know whether to bring a sweater or something lighter for swelter summer days.
 * Our new GIS chatbot will help you *find the nearest tree to hug* or the closest park to meet a friend for lunch.
-* An IoT temperature sensor for the office so you’ll always know whether to bring a sweater or something lighter for swelter summer days.
-* [GeoTools.xyz]("https://www.geotools.xyz/") gives you an easy way to do some common GeoDev tasks. For example, Where is that lat/long? or What is the extent of a map if I center it on Portland, OR?
 
 <img src="/images/blog/tree-hug.jpg" alt="arms hugging a tree">
 
