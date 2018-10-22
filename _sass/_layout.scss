@@ -143,6 +143,7 @@
   .blog-preview-items {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 1.6rem;
     .blog-preview-item {
       flex: 1 0 calc(50% - 20px);
       margin-left: 20px;
@@ -153,6 +154,7 @@
       }
       time {
         font-weight: bolder;
+        //text-decoration: underline #e24e42;
       }
     }
   }
