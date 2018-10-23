@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
-
+<div>
+  <h1 class="blog-header mb-1">
+  <span class="color-red">Moravec</span> <span class="color-blue">Labs</span>
+  </h1>
+</div>
 <div class="content-section">
   <div class="container">
     <h4>Blog</h4>
@@ -10,6 +14,6 @@ layout: default
     <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
     {% endfor %}
 
-    <p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <!--<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
   </div>
 </div>

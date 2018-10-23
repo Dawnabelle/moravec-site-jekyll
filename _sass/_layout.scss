@@ -347,7 +347,6 @@ footer {
 //}
 
 .form-input {
-  //background-color: rgba(#1D809F, 0.9) !important;
   border: 1px solid lightgrey;
   opacity: 70%;
   color:#155d74 !important;
@@ -362,4 +361,23 @@ h3.contact-head {
 .copyright {
   margin-top: 3rem;
   font-size: .9rem;
+}
+
+.footer-header {
+  background: url("../images/cartographer.png");
+  background-color: rgba(#155d74, .8);
+  margin-bottom: 2rem;
+  padding: 3rem;
+  color: white;
+}
+.blog-decoration {
+  background: url("../images/cartographer.png");
+}
+
+.blog-header {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+  margin-top: 0;
 }
