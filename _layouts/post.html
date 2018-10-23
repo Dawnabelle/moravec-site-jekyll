@@ -1,12 +1,19 @@
 ---
 layout: default
 ---
+<div>
+  <h1 class="blog-header mb-1">
+    <a href="/index"><span class="color-red">Moravec</span> <span class="color-blue">Labs</span></a>
+  </h1>
+</div>
 <div class="blog-decoration"></div>
 <div class="content-section">
   <div class="container">
+  <a href="/blog">&#8810; Back to Bulletins</a>
     <h2>{{ page.title }}</h2>
     <time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
 
     {{ content }}
+    <a href="/blog">&#8810; Back to Bulletins</a>
   </div>
 </div>
