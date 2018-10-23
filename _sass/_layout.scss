@@ -118,9 +118,17 @@
 }
 
 .smaller-text {
+  display: inline;
   font-size: 1.5rem;
-
+  font-style: italic;
 }
+
+@media all and (max-width: 480px) {
+  .mobile-hide {
+    display: none;
+  }
+}
+
 
 /** Section - About **/
 .about {
@@ -297,6 +305,7 @@ footer {
   background-size: cover;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  display: inline;
 }
 
 /** Back to Top Button **/
