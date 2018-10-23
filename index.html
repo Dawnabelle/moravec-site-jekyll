@@ -94,7 +94,7 @@ layout: default
   <div class="container text-center">
     <h2>Browse our Bulletins</h2>
     <div class="blog-preview-items">
-      {% for post in site.posts limit:4 %}
+      {% for post in site.posts limit:6 %}
       <div class="blog-preview-item">
         <time>{{ post.date | date: "%b %-d, %Y" }}</time>
         <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
