@@ -1,35 +1,50 @@
 <!-- Footer -->
-<div class="footer text-center flex-container content-section">
-  <div flex-container>
-  <div><a class="js-scroll-trigger" href="/#about">About</a></div>
-  <div><a class="js-scroll-trigger" href="/#blog">Blog</a></div>
-  <div><a class="js-scroll-trigger" href="/#portfolio">Projects</a></div>
-  <div><a class="js-scroll-trigger" href="#contact">Contact</a></div>
+<footer class="footer">
+<div class="row footer text-center flex-container">
+  <div class="col-12 col-md-4">
+    <section class="container text-center">
+      <h3 class="text-center contact-head">Let's chat maps!</h3>
+      <form class="contact-box" action="https://formspree.io/info@moraveclabs.com"
+      method="POST">
+        <input class="form-input" type="text" name="name" placeholder="Name"><br/>
+      <input class="form-input" type="email" name="_replyto" placeholder="Email Address"><br/>
+      <textarea class="form-input" name="message" placeholder="Message us!"></textarea><br/>
+      <input class="btn btn-primary btn-xl" type="submit" value="Send">
+      </form>
+    </section>
   </div>
-  <div flex-container>
-<footer class="footer text-center">
-  <div class="container">
-    <ul class="list-inline mb-5">
-      <li class="list-inline-item">
-        <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/company/moravec-labs/">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/MoravecLabs">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="social-link rounded-circle text-white" href="https://github.com/MoravecLabs">
-          <i class="fab fa-github-alt"></i>
-        </a>
-      </li>
-    </ul>
-    <p class="text-muted small mb-0">&copy; 2018 Moravec Labs LLC</p>
+  <div class="col-12 col-md-4 flex-container social-icons">
+
+      <div class="container">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/company/moravec-labs/">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/MoravecLabs">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="https://github.com/MoravecLabs">
+              <i class="fab fa-github-alt"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
   </div>
-</footer>
+  <div class="col-12 col-md-4 flex-container-c  footer-links">
+    <div><a class="js-scroll-trigger" href="/#about">About</a></div>
+    <div><a class="js-scroll-trigger" href="/#blog">Blog</a></div>
+    <div><a class="js-scroll-trigger" href="/#portfolio">Projects</a></div>
+    <div><a class="js-scroll-trigger" href="#contact">Contact</a></div>
+  <div class="copyright">&copy; 2018 Moravec Labs LLC</div>
+  </div>
 </div>
+</footer>
 
 <!-- Scroll to Top Button-->
 <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">

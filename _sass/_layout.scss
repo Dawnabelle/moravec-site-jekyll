@@ -264,9 +264,13 @@ h2.projects {
 
 /** Footer **/
 footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  //background-image: url("../images/cartographer.png");
+  //background-color: rgba(#1D809F, .9);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  //padding-bottom: 5rem;
   .social-link {
+    margin-top: 5rem;
     display: block;
     height: 4rem;
     width: 4rem;
@@ -281,9 +285,19 @@ footer {
       background-color: #155d74;
       text-decoration: none;
     }
+
+  }
+  .footer-links {
+    margin-top: 4rem;
   }
 }
 
+.social-icons {
+  background: url("../images/landscape.jpg");
+  background-size: cover;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 
 /** Back to Top Button **/
 .scroll-to-top {
@@ -311,12 +325,41 @@ footer {
 
 .contact-box {
   padding-bottom: 0;
-  padding-top: 2rem;
+  padding-top: 0;
   margin-bottom: 0;
   margin-top: 0;
+  display: inline-block;
+}
+
+.flex-container-c {
+  display: flex;
+  flex-direction: column;
+  color: #e24e42;
 }
 
 .flex-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+//textarea {
+//  height: 5rem;
+//}
+
+.form-input {
+  //background-color: rgba(#1D809F, 0.9) !important;
+  border: 1px solid lightgrey;
+  opacity: 70%;
+  color:#155d74 !important;
+  width: 100%;
+  margin-bottom: .5rem;
+}
+
+h3.contact-head {
+  color: #155d74;
+}
+
+.copyright {
+  margin-top: 3rem;
+  font-size: .9rem;
 }
