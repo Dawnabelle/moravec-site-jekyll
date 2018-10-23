@@ -293,7 +293,7 @@ footer {
 }
 
 .social-icons {
-  background: url("../images/landscape.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/landscape.jpg");
   background-size: cover;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -365,7 +365,7 @@ h3.contact-head {
 
 .footer-header {
   background: url("../images/cartographer.png");
-  background-color: rgba(#155d74, .8);
+  background-color: rgba(#1D809F, .9);
   margin-bottom: 2rem;
   padding: 3rem;
   color: white;
