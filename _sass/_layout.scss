@@ -124,7 +124,7 @@
 }
 
 @media all and (max-width: 480px) {
-  .mobile-hide {
+  #mobile-hide {
     display: none;
   }
 }
@@ -272,11 +272,8 @@ h2.projects {
 
 /** Footer **/
 footer {
-  //background-image: url("../images/cartographer.png");
-  //background-color: rgba(#1D809F, .9);
   margin-top: 1rem;
   margin-bottom: 1rem;
-  //padding-bottom: 5rem;
   .social-link {
     margin-top: 5rem;
     display: block;
@@ -301,10 +298,10 @@ footer {
 }
 
 .social-icons {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../images/landscape.jpg");
+  background: url("../images/landscape.jpg");
   background-size: cover;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  //padding-top: 1rem;
+  //padding-bottom: 1rem;
   display: inline;
 }
 
@@ -346,10 +343,10 @@ footer {
   color: #e24e42;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-}
+//.flex-container {
+//  display: flex;
+//  flex-direction: row;
+//}
 
 //textarea {
 //  height: 5rem;
