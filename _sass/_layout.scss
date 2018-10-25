@@ -122,10 +122,9 @@
   font-size: 1.5rem;
   font-style: italic;
 }
-
-@media all and (max-width: 480px) {
-  #mobile-hide {
-    display: none;
+@media (max-width: 600px){
+  .smaller-text{
+  display: none;
   }
 }
 
@@ -303,6 +302,12 @@ footer {
   //padding-top: 1rem;
   //padding-bottom: 1rem;
   display: inline;
+}
+
+@media (max-width: 800px) {
+  .social-icons {
+    display: none;
+  }
 }
 
 /** Back to Top Button **/
