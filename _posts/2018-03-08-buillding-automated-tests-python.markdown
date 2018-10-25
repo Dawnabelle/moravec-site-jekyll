@@ -7,9 +7,16 @@ categories: python, testing, automation
 
 Resources from Christopher Moravec's 2017 Esri Developer Summit Presentation
 
-<img src="/images/blog/computer-woods.jpg" alt="computer in the woods with camping gear and speaker">
+
 
 
 GitHub: [https://github.com/MoravecLabs/ArcpyTestExample]("https://github.com/MoravecLabs/ArcpyTestExample")
 
-PowerPoint: [Building Automated Tests for Python Toolbox Tools](#)
+PowerPoint: [Building Automated Tests for Python Toolbox Tools](http://localhost:4000/resources/automated-tests-python.pdf)
+
+<br/>
+
+_Comic - **Python** by [xkcd](https://xkcd.com)_
+<br/>
+<br/>
+[<img src="/images/blog/python.png" alt="xkcd comic showing flying using python">](https://xkcd.com/353) 

@@ -7,8 +7,9 @@ categories: voice recognition, chat-bots, navigation
 
 Resources for Christopher's 2017 Esri Developer Summit Presentation
 
-<img src="/images/blog/phone-road.jpg" alt="navigation">
-
 Source: [https://github.com/MoravecLabs/VoiceNavigation]("https://github.com/MoravecLabs/VoiceNavigation")
 
-Powerpoint: [Using Voice Recognition and Chat-bots to make Navigation Better]("#")
+Powerpoint: [Using Voice Recognition and Chat-bots to make Navigation Better](http://localhost:4000/resources/chatbot-navigation.pdf)
+<br/>
+<img src="/images/blog/phone-road.jpg" alt="navigation">
+
