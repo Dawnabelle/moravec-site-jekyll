@@ -13,7 +13,11 @@ layout: default
         {% for project in site.projects %}
         <h3><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h3>
         {% endfor %}
-
+        <div>
+        {% if project.picture %}
+        <img src="{{ project.picture }}" alt="Photo of a {{ project.title | downcase }}">
+        {% endif %}
+        </div>
         <!--<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
     </div>
 </div>

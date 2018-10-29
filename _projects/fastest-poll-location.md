@@ -1,6 +1,7 @@
 ---
 layout: project
 title:  "Vote with Ease"
+picture: /images/projects/ballot.jpg
 ---
 _Bringing more voters to the polls, with less traffic._<br/><br/>
 <img src="/images/projects/ballot.jpg" alt="hands dropping ballots into boxes" width="500">
