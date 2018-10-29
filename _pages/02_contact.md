@@ -6,4 +6,4 @@ permalink: /contact/
 
 
 
-My e-mail is [email@something.com](mailto:email@something.com).
+My e-mail is [info@moraveclabs.com](mailto:info@moraveclabs.com).
