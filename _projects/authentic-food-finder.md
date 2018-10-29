@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Authentic Neighborhood Food Finder"
-date:   2017-02-05 15:23:35 -0700
-categories: transit, tech
 ---
 ## ESRI Award Winning Application
 ###  City of **Houston** Hack-a-thon 2015 
