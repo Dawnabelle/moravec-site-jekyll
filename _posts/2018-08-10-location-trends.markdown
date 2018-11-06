@@ -3,6 +3,7 @@ layout: post
 title:  "Location: Trends in Time and Place"
 date:   2018-08-10 13:14:35 -0700
 categories: location, gis
+image: "/images/blog/map-friends1.jpg"
 ---
 
 *Location is often dismissed as a way to 'put something on a map', but can we see more than just points on a map?*

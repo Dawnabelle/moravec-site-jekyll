@@ -9,11 +9,14 @@ layout: default
 <div class="content-section">
   <div class="container">
     <h4>Bulletins</h4>
+    <div>
     {% for post in site.posts %}
     <time>{{ post.date | date: "%b %-d, %Y" }}</time>
     <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+    <p>{{ post.excerpt }}</p>
+    <img class="bulletin-preview" src="{{ post.image }}" ><br/>
     {% endfor %}
-
+    </div>
     <!--<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
   </div>
 </div>
