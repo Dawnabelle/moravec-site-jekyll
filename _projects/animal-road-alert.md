@@ -1,6 +1,8 @@
 ---
 layout: project
 title:  "Wildlife in the Road Alert"
+image: "/images/projects/wildlife-alert.jpg"
+excerpt: "An app that alert users to wildlife in the road in order to avoid dangerous collisions."
 ---
 _An app that alert users to wildlife in the road in order to avoid dangerous collisions._<br/><br/>
 <img src="/images/projects/wildlife-alert.jpg" alt="mapping with friends over coffee" width="500">
