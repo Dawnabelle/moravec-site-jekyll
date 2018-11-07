@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Authentic Neighborhood Food Finder"
-image: "/images/projects/food-finder.png"
+image: "/images/texmex.jpg"
 excerpt: "Houston is a melting pot of cultures and has excellent dishes and restaurants from all over the world, but where do you find them?"
 ---
 _Houston is a melting pot of cultures and has excellent dishes and restaurants from all over the world, but where do you find them?_

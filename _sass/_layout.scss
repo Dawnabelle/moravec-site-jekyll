@@ -452,3 +452,45 @@ h3.contact-head {
   max-width: 15rem;
   margin-bottom: 2rem;
 }
+.cm-bio {
+  text-align:left;
+  //background: #398fab;
+  background: url("../images/cartographer.png");
+  background-color: rgba(#398FAB, .9);
+  padding: 2rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+.cm-image-area {
+  float: left;
+
+}
+.cm-image {
+  width: 20rem;
+  padding-right: 2rem;
+}
+.moravec-labs-bio {
+  text-align: left;
+  //background: url("../images/cartographer.png");
+  //background-color: rgba(#e24e42, .9);
+  //background: #e24e42;
+  padding: 2rem;
+  margin-right: 0;
+  margin-left: 0;
+  display: inline-block;
+}
+.about-globe {
+  display: inline-block;
+}
+.about-globe-image {
+  width: 20rem;
+}
+.moravec-bio-area {
+  display: flex;
+}
+.bulletin-selector {
+  border-left: 1px solid #e24e42;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: -10px 0px 1px 1px rgba(#e42e24, .6);
+}

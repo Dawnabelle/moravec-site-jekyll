@@ -11,10 +11,12 @@ layout: default
     <div class="container">
         <h4>Projects</h4>
         {% for project in site.projects %}
+        <div class="bulletin-selector">
         <h3><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h3>
         <p>{{ project.excerpt }}</p>
         <img class="bulletin-preview" src="{{ project.image }}"><br/>
-        {% endfor %}
+        </div>
+            {% endfor %}
 
         <!--<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
     </div>
