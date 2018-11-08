@@ -17,7 +17,7 @@ title: Moravec Labs
 email: info@moraveclabs.com
 description: >- # this means to ignore newlines until "baseurl:"
   Software exists all around us. How do we differentiate between good and not so good software? At Moravec Labs, we believe good software tells a story. It is intuitive. Users don’t need to understand all the aspects of an application to use it. We consider the story that the software needs to tell as well as the story the map is telling. Are the stories the same? Do they complement each other? At Moravec Labs, we weave these stories together to tell a comprehensive and fluid story for the user.
-baseurl: ""
+baseurl: "/ml-site-jekyll"
 url: "https://github.com/moraveclabs/ml-site-jekyll" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: moraveclabs
 github_username:  morehavoc
