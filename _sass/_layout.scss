@@ -470,6 +470,9 @@ h3.contact-head {
 }
 .about-globe {
   display: inline-block;
+  @media (max-width: 1000px) {
+    display: none;
+  }
 }
 .about-globe-image {
   width: 20rem;
