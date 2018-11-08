@@ -116,7 +116,11 @@
   padding-bottom: 15rem;
 
 }
-
+.find-out-more {
+  @media (max-height: 400px) {
+    display: none;
+  }
+}
 .smaller-text {
   display: inline;
   font-size: 1.5rem;
