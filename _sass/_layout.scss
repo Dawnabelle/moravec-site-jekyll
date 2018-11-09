@@ -445,6 +445,13 @@ h3.contact-head {
   max-width: 15rem;
   margin-bottom: 2rem;
 }
+
+.bio-top {
+  @media (max-width: 500px) {
+    width: 400px;
+    text-align: center;
+  }
+}
 .cm-bio {
   text-align:left;
   //background: #398fab;
