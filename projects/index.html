@@ -14,7 +14,7 @@ layout: default
         <div class="bulletin-selector">
         <h3><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h3>
         <p>{{ project.excerpt }}</p>
-        <img class="bulletin-preview" src="{{ project.image }}"><br/>
+        <img class="bulletin-preview" src="{{ project.image | prepend: site.baseurl }}"><br/>
         </div>
             {% endfor %}
 
