@@ -14,7 +14,7 @@ layout: default
       <time>{{ post.date | date: "%b %-d, %Y" }}</time>
       <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
       <p>{{ post.excerpt }}</p>
-      <img class="bulletin-preview" src="{{ post.image }}" ><br/>
+      <img class="bulletin-preview" src="{{ post.image  | prepend: site.baseurl }}" ><br/>
     </div>    <!--<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
       {% endfor %}
   </div>
