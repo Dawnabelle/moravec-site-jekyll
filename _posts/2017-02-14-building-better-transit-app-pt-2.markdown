@@ -3,7 +3,7 @@ layout: post
 title:  "Building a Better Transit App - Part 2"
 date:   2017-02-14 5:33:32 -0700
 categories: transit, tech
-image: "{{ site.baseurl }}/images/blog/transit.jpg"
+image: "images/blog/transit.jpg"
 ---
 
 For the first bit of code, I set out to get a working map and a button to press to zoom the map to my current location. I ended up spending a lot of time cleaning some of the code that I brought over from other projects, especially once I introduced [StyleCop]("http://addins.monodevelop.com/Project/Index/54") to my workflow. That took some getting used to, but now that I am starting to get the hang of it, I like it. Adding StyleCop forced me to be more honest about the organization of my code, hopefully making it better code.
