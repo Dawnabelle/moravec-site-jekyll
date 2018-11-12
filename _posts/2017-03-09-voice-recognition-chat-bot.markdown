@@ -12,5 +12,5 @@ Source: [https://github.com/MoravecLabs/VoiceNavigation]("https://github.com/Mor
 
 Powerpoint: [Using Voice Recognition and Chat-bots to make Navigation Better](http://localhost:4000/resources/chatbot-navigation.pdf)
 <br/>
-<img src="/images/blog/phone-road.jpg" alt="navigation">
+<img src="{{ site.baseurl }}/images/blog/phone-road.jpg" alt="navigation">
 

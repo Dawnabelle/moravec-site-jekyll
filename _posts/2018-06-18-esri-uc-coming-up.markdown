@@ -17,6 +17,6 @@ In the last year we’ve seen a lot of innovation in the Esri ecosystem and we c
 * An IoT temperature sensor for the office so you’ll always know whether to bring a sweater or something lighter for swelter summer days.
 * [GeoTools.xyz]("https://www.geotools.xyz/") gives you an easy way to do some common GeoDev tasks. For example, Where is that lat/long? or What is the extent of a map if I center it on Portland, OR?
 
-<img src="/images/blog/tree-hug.jpg" alt="arms hugging a tree">
+<img src="{{ site.baseurl }}/images/blog/tree-hug.jpg" alt="arms hugging a tree">
 
 Hope to see you July 9th in San Diego!

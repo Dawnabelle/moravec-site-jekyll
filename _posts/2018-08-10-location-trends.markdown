@@ -8,7 +8,7 @@ image: "/images/blog/map-friends1.jpg"
 
 *Location is often dismissed as a way to 'put something on a map', but can we see more than just points on a map?*
 
-[<img src="/images/blog/map-friends1.jpg" alt="mapping with friends over coffee" width="575">]("https://youtu.be/9gAuapWREU4")
+[<img src="{{ site.baseurl }}/images/blog/map-friends1.jpg" alt="mapping with friends over coffee" width="575">]("https://youtu.be/9gAuapWREU4")
 
 
 In this talk we will *explore methods of extracting location and time trends from data* – and plotting that data and extracting meaning for our users beyond just location. We will cover everything from hot-spot analysis vs heat maps to plotting location trends over time and even filtering common locations.

@@ -10,7 +10,7 @@ For the first bit of code, I set out to get a working map and a button to press 
 
 With that done, and my code cleaned up it was time to Add the Esri SDK and Put a map on it! I ended up adding a lot of complexity to such a simple task, but this complexity should make my life much easier as the app grows, and it certainly makes the view controller pretty straight forward.
 
-<img src="/images/blog/esri-ss-1.png" alt="screen shot">
+<img src="{{ site.baseurl }}/images/blog/esri-ss-1.png" alt="screen shot">
 
 ```
 public override void ViewDidLoad()
@@ -77,11 +77,11 @@ map.InitialViewpoint = new Viewpoint(45.522689, -122.678187, 4000);
 
 Now I needed to add a button to the map so that I could zoom to my location and get nearby stops. My first attempt was not so cool:
 
-<img src="/images/blog/esri-ss-2.png" alt="screen shot">
+<img src="{{ site.baseurl }}/images/blog/esri-ss-2.png" alt="screen shot">
 
 But after adding in a Material Design library I was able to get something much nicer:
 
-<img src="/images/blog/esri-ss-3.png" alt="screen shot">
+<img src="{{ site.baseurl }}/images/blog/esri-ss-3.png" alt="screen shot">
 
 
 That’s about it for this installment, next I plan on getting the actual stop locations into the map.  I added a few extra details below for those interested.  You can find this [Public Transit App code]("https://github.com/MoravecLabs/PublicTransitApp/tree/Part-2") on GitHub.

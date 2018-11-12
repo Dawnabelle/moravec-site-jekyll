@@ -20,4 +20,4 @@ PowerPoint: [Building Automated Tests for Python Toolbox Tools](http://localhost
 _Comic - **Python** by [xkcd](https://xkcd.com)_
 <br/>
 <br/>
-[<img src="/images/blog/python.png" alt="xkcd comic showing flying using python">](https://xkcd.com/353) 
+[<img src="{{ site.baseurl }}/images/blog/python.png" alt="xkcd comic showing flying using python">](https://xkcd.com/353) 
