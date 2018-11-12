@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Vote with Ease"
-image: "{{ site.baseurl }}/images/projects/ballot.jpg"
+image: "/images/projects/ballot.jpg"
 excerpt: "Our app aimed to help people get out and vote by routing them to the nearest polling location with the shortest line, and minimizing the total time they would have to spend voting."
 ---
 _Bringing more voters to the polls, with less traffic._<br/><br/>

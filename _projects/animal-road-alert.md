@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Wildlife in the Road Alert"
-image: "{{ site.baseurl }}/images/projects/wildlife-alert.jpg"
+image: "/images/projects/wildlife-alert.jpg"
 excerpt: "An app that alert users to wildlife in the road in order to avoid dangerous collisions."
 ---
 _An app that alert users to wildlife in the road in order to avoid dangerous collisions._<br/><br/>

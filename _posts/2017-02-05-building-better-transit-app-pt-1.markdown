@@ -3,7 +3,7 @@ layout: post
 title:  "Building a Better Transit App - Part 1"
 date:   2017-02-05 15:23:35 -0700
 categories: transit, tech
-image: "images/blog/bus-stop.jpg"
+image: "/images/blog/bus-stop.jpg"
 ---
 
 I have spent a lot of time recently learning and working with Xamarin Studio and I wanted a useful project to build to exercise my new skills.  Living in PDX I use public transportation a lot, almost every day in fact.  I am either on my bike or on the bus to and from work and most errands around town.  I am constantly frustrated by the inaccuracy of Google Maps’ transit information and the poor usability of other apps, so I am setting out to fix that.  I am building this app for myself more than anything, but I will document my process here and release the code to GitHub as I go.

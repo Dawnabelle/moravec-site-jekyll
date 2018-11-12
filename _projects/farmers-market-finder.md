@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Farmers Market Finder"
-image: "{{ site.baseurl }}/images/projects/houston-markets.png"
+image: "/images/projects/houston-markets.png"
 excerpt: "The best local produce is often found at Farmers Markets. But where can we find those markets?"
 ---
 _The best local produce is often found at Farmers Markets. But where can we find those markets?_<br/><br/>
