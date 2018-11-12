@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Frontier Series of Risk Assessment Software"
-image: "/images/projects/sparks.jpg"
+image: "{{ site.baseurl }}/images/projects/sparks.jpg"
 excerpt: "The Frontier Series of Pipeline Risk Software strives to be a simple, open-algorithm tool that allows users to manage their own Risk."
 ---
 _The Frontier Series of Pipeline Risk Software strives to be a simple, open-algorithm tool that allows users to manage their own Risk._<br/> <br/>

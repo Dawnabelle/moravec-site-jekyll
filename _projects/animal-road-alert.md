@@ -1,11 +1,11 @@
 ---
 layout: project
 title:  "Wildlife in the Road Alert"
-image: "/images/projects/wildlife-alert.jpg"
+image: "{{ site.baseurl }}/images/projects/wildlife-alert.jpg"
 excerpt: "An app that alert users to wildlife in the road in order to avoid dangerous collisions."
 ---
 _An app that alert users to wildlife in the road in order to avoid dangerous collisions._<br/><br/>
-<img src="/images/projects/wildlife-alert.jpg" alt="mapping with friends over coffee" width="500">
+<img src="{{ site.baseurl }}/images/projects/wildlife-alert.jpg" alt="mapping with friends over coffee" width="500">
 <br/><br/>
 Our team created the winning app for **Esri’s first Hackathon at the Esri Developer Summit in 2013**.  <br/>Our app used Esri maps to alert users of animals on the road in order to drive more cautiously.  
 <br/><br/>Our team of three had 20 hours to create an app that used County of Riverside data.  <br/>You can find out more in the presentation below:

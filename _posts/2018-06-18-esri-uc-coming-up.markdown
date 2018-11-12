@@ -3,7 +3,7 @@ layout: post
 title:  "Coming Soon: Esri UC 2018"
 date:   2018-06-18 1:27:32 -0700
 categories: esri, gis
-image: "/images/blog/tree-hug.jpg"
+image: "{{ site.baseurl }}/images/blog/tree-hug.jpg"
 ---
 
 

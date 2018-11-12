@@ -3,7 +3,7 @@ layout: post
 title:  "The Evolution of Esri Software: Esri UC 2018"
 date:   2018-08-10 12:23:32 -0700
 categories: esri, gis, machine learning
-image: "/images/blog/mapwoman.jpg"
+image: "{{ site.baseurl }}/images/blog/mapwoman.jpg"
 ---
 
 This year was my first time attending the Esri User Conference as a business owner.  I have attended many others in the past, but always as a member of a team and not solely responsible for my company.  I was not overwhelmed by Esri’s display of technology this year, but I was happy about it. Esri seems to have reached a level of maturity in software development where they are working diligently at evolving the software and not making large technological leaps.
