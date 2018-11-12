@@ -3,7 +3,7 @@ layout: post
 title:  "Building Automated Tests for Python Toolbox Tools"
 date:   2017-03-08 7:13:42 -0700
 categories: python, testing, automation
-image: "{{ site.baseurl }}/images/blog/python.png"
+image: "/images/blog/python.png"
 ---
 
 Resources from Christopher Moravec's 2017 Esri Developer Summit Presentation
